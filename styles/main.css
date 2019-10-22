@@ -13,8 +13,7 @@ html,body {
 }
 
 .index > .row {
-    min-height: 250px;
-    border: 2px solid black;
+    min-height: 185px;
 }
 
 .index > .row > .img {
@@ -22,8 +21,6 @@ html,body {
     
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -33,7 +30,8 @@ html,body {
     transition: .25s;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
-    cursor: pointer;    
+    cursor: pointer;
+    box-shadow: 0px 0px 15px -4px black;     
 }
 
 
@@ -56,5 +54,5 @@ html,body {
 }
 
 .csgo {
-        background-image:url("../images/csgo.jpg");
+    background-image:url("../images/csgo.jpg");
 }
