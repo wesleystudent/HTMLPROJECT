@@ -3,21 +3,24 @@
     margin: 0;
 }
 
+html,body {
+    height: 100%;
+}
+
 .col {
     min-height: 250px;
     border: 4px solid red;
 }
 
 .index > .row {
-    min-height: 185px;
-    border: 2px solid black;
+    min-height: 255px;
 }
 
-.index > .row > .img {    
-	background-color: blue;
+.index > .row > .img {
+    background-color: blue;
+    transition: .25s;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -28,16 +31,23 @@
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
     cursor: pointer;
+    box-shadow: 0px 0px 15px -4px black;
 }
 
 .index > .row > .info {
     background-color: red;
 }
 
+.index > .row > .img > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 /* Eigen class hier voor game bg image */
 
 .eft {
-    background-image: url('../images/escape-from-tarkov-alpha-main-menu-banner.jpg');   
+    background-image: url('../images/escape-from-tarkov-alpha-main-menu-banner.jpg');
 }
 
 .ow{
@@ -47,4 +57,8 @@
 .halo {
 	background-image: url('../images/halo-banner.png');
 	background-position: 0% 0% !important;
+}
+
+.csgo {
+    background-image:url("../images/csgo.jpg");
 }
