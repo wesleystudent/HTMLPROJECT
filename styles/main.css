@@ -48,7 +48,8 @@ html,body {
 }
 /* Eigen class hier voor game bg image */ 
 .eft {
-    background-image: url('../images/escape-from-tarkov-alpha-main-menu-banner.jpg');   
+    background-image: url('../images/escape-from-tarkov-alpha-main-menu-banner.jpg');
+    background-position: 50% 50% !important;
 }
 
 .ow {
