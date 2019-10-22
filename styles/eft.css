@@ -1,7 +1,11 @@
+
+
 .header .header_image {
     border: 2px solid red;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 185px;
+    background-image: url("../images/escape-from-tarkov-alpha-main-menu-banner.jpg");
+    
 }
