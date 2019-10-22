@@ -13,12 +13,12 @@ html,body {
 }
 
 .index > .row {
-    min-height: 185px;
+    min-height: 255px;
 }
 
 .index > .row > .img {
     background-color: blue;
-    
+    transition: .25s;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     background-size: cover;
