@@ -16,9 +16,24 @@
 
 .index > .row > .img {
     background-color: blue;
+    /*
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 
 .index > .row > .info {
     background-color: red;
+}
+
+
+/* Eigen class hier voor game bg image */ 
+.eft {
+    background-image: url('../images/escape-from-tarkov-alpha-main-menu-banner.jpg');
+    
 }
