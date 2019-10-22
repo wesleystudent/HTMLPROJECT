@@ -17,7 +17,6 @@ html,body {
 }
 
 .index > .row > .img {
-    background-color: blue;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     background-size: cover;
@@ -30,8 +29,8 @@ html,body {
     transition: .25s;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
-    cursor: pointer;
-    box-shadow: 0px 0px 15px -4px black;
+    cursor: pointer;  
+    box-shadow: 0px 0px 25px -7px black inset;
 }
 
 .index > .row > .info {
@@ -61,4 +60,5 @@ html,body {
 
 .csgo {
     background-image:url("../images/csgo.jpg");
+    background-position: 86% 10% !important;
 }
