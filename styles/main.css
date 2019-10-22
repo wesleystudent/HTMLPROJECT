@@ -13,13 +13,11 @@
     border: 2px solid black;
 }
 
-.index > .row > .img {
-    background-color: blue;
-    
+.index > .row > .img {    
+	background-color: blue;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -29,23 +27,24 @@
     transition: .25s;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
-    cursor: pointer;    
+    cursor: pointer;
 }
-
 
 .index > .row > .info {
     background-color: red;
 }
 
-/* Eigen class hier voor game bg image */ 
+/* Eigen class hier voor game bg image */
+
 .eft {
     background-image: url('../images/escape-from-tarkov-alpha-main-menu-banner.jpg');   
 }
 
-<<<<<<< HEAD
-=======
-
 .ow{
 	background-image: url('../images/overwatchxl.jpg');
 }
->>>>>>> master
+
+.halo {
+	background-image: url('../images/halo-banner.png');
+	background-position: 0% 0% !important;
+}
