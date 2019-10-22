@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.col {
+    min-height: 250px;
+    border: 4px solid red;
+}
+
+
+.index > .row {
+    min-height: 185px;
+    border: 2px solid black;
+}
+
+.index > .row > .img {
+    background-color: blue;
+}
+
+
+.index > .row > .info {
+    background-color: red;
+}
