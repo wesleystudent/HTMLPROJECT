@@ -62,3 +62,8 @@ html,body {
     background-image:url("../images/csgo.jpg");
     background-position: 86% 10% !important;
 }
+
+.borderlands {
+    background-image:url("../images/borderlands.jfif");
+    background-position: 100% 30% !important;
+}
