@@ -15,6 +15,7 @@ body
 	background-image: url("../images/halo-ring.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: 100vw 100vh;
 }
 
 .text_block

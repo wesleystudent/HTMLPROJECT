@@ -1,7 +1,55 @@
 
-
+h2, p, .text_header {
+    color: #9a8866;
+}
 .header .header_image {
     
     background-image: url("../images/escape-from-tarkov-alpha-main-menu-banner.jpg");
     
+}
+
+.map_image {
+    width: 250px;
+    
+}
+
+#weaponmod {
+    background-image: url('../images/tarkov_weaponmod.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.mar-10 {
+    margin: 10px;
+}
+
+.content {
+    background-color: rgb(14, 14, 14);
+}
+
+#tarkov_1 {
+    background-image: url('../images/tarkov_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tarkov_2 {
+    background-image: url('../images/tarkov_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tarkov_3 {
+    background-image: url('../images/tarkov_3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_block {
+    transition: box-shadow 0.3s ease-in-out;
+}
+.text_block:hover {
+   
+    box-shadow: 0px 10px #9a8866;
 }
