@@ -1,7 +1,21 @@
 .img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+	width:100%;
+	height:255px;
+}
+
+.img4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+	width:101%;
+	height:255px;
+}
+
+.img3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .header{
@@ -15,7 +29,7 @@
 }
 .content{
 	background-image: url('../images/owbg.jpg');
-	height:5000px;
+	height:1450px;
 }
 .owlogo{
 	background-image: url('../images/owlogo.jpg');
@@ -59,9 +73,40 @@ h1{
 .owtank{
 	background-image: url('../images/owtank.jpg');
 }
+.owtank:hover{
+	background-image: url('../images/reinhart.jpg');
+	border-radius:123px;
+}
 .owsupport{
 	background-image: url('../images/owsupport.jpg');
 }
+.owsupport:hover{
+	background-image: url('../images/mercy.jpg');
+	border-radius:123px;
+}
 .owdamage{
 	background-image: url('../images/owdamage.jpg');
+}
+.owdamage:hover{
+	background-image: url('../images/tracer.jpg');
+	border-radius:123px;
+}
+.tekstr{
+	color: #f99e1a;
+	text-align:right;
+	padding-left:50px;
+}
+.tekstl{
+	color: #f99e1a;
+	text-align:left;
+	padding-right:50px;
+}
+
+.l{
+	min-height:300px;
+}
+.content > .row > .img3 > a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
